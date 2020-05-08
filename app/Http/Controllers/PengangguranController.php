@@ -11,7 +11,7 @@ class PengangguranController extends Controller
         // Mengambil data dari table pengangguran
         $pengangguran = DB::table('tb_pengangguran')->get();
 
-        // mengirim data dari pegawai ke view index
+        // mengirim data dari pengangguran ke view index
         return view('index',['pengangguran' => $pengangguran]);
     }
     public function tambah(){

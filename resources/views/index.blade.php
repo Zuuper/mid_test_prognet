@@ -16,11 +16,10 @@
         <h2>1805551145 </h2>
         <h2>Kelompok 8</h2>
         <span class="mt-3">
-            <a href="/pengangguran/tambah"><i class="fas fa-plus-circle  fa- mr-3"></i>Tambah Pengangguran</a>
+            <a href="/pengangguran/tambah"><i class="fas fa-plus-circle mr-3"></i>Tambah Pengangguran</a>
         </span>
     </div>
-      
-      
+      <div class="container">
       <table class=" table table-hover mt-5">
         <thead class="thead-dark">
             <th scope="col">NO.</th>
@@ -51,6 +50,9 @@
             @endforeach
         </tbody>
       </table>
+      </div>
+      
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -38,7 +38,7 @@
             <label for="pekerjaan_terakhir">pekerjaan terakhir</label>
             <input type="text" class="form-control" name="pekerjaan_terakhir" value="{{$p->pekerjaan_terakhir}}" required="required">
         </div>
-        <button type="submit" class="btn btn-primary">Simpan Data</button>
+        <button type="submit" class="btn btn-primary mt-3">Simpan Data</button>
     </form>
     @endforeach
     </div>
